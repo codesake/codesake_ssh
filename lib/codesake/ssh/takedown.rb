@@ -34,10 +34,13 @@ module Codesake
         end
       end
 
-      def are_root?
+      def compromised?
         ! @results.empty?
       end
       
+      def count_compromised
+        @results.size
+      end
       private 
 
       def steal(host, port, password)
