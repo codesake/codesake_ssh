@@ -7,10 +7,10 @@ Gem::Specification.new do |gem|
   gem.name          = "codesake_ssh"
   gem.version       = Codesake::SSH::VERSION
   gem.authors       = ["Paolo Perego"]
-  gem.email         = ["thesp0nge@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.email         = ["paolo@armoredcode.com"]
+  gem.description   = %q{Codesake::SSH includes all security checks we apply to ssh service for codesake application security portal}
+  gem.summary       = %q{Codesake::SSH includes all security checks we apply to ssh service for codesake application security portal}
+  gem.homepage      = "http://codesake.com"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
