@@ -1,1 +1,1 @@
-require 'ssh'
+require 'codesake_ssh'
